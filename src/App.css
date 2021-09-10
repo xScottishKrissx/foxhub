@@ -232,3 +232,8 @@ p{color: black;}
     /* transform: rotateY(180deg); */
   }
 
+/* section 4 */
+.section4{max-width: 1200px; margin: 0 auto;}
+.section4 > img{
+  max-width: 230px;
+}
