@@ -84,3 +84,52 @@ p{color: #EEDACB;}
 
 .section1 > button{position: relative; z-index: 10; margin-bottom: 30px;}
 
+/* Section 2 */
+.section2{
+  /* outline: 1px solid red; */
+}
+.section2 > p{
+  color: black ; 
+  margin: 0;
+  padding: 0; 
+}
+
+.section2 > h2{
+  margin: 0; 
+    margin-top: 10px; 
+    margin-bottom:30px ;
+    margin: 0 auto;
+  padding: 0; 
+  max-width: 1200px;
+}
+
+.imageRow{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  /* outline: 1px solid black; */
+}
+  .imageRowItem{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+    /* max-width: 220px; */
+    /* outline: 1px solid red; */
+    width: 25%;
+  }
+    .imageRowItem > img{
+      box-shadow: 0px 13px 20px 0px #00000075;
+      height: auto; 
+      width: 80%;
+      /* width: 180px; */
+    }
+
+    .imageRowItem > span {
+      /* color: #D1898B; */
+      margin-top: 30px;
+      width: 80%;
+    }
+    .section2 > button{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
