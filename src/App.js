@@ -36,6 +36,7 @@ console.log("Render")
 
       <div  className="section1" style={style}>
         
+        
         <span id="section1ImageWrapper">
           <img id="coleSkateboard" src={coleSkateboard} alt="text" />
           <img id="skateType" alt="text" src={skateType} />
@@ -95,6 +96,8 @@ console.log("Render")
          <div className="curved upper">
 
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EBEBEB" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,106.7C640,128,800,192,960,208C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+ 
          </div>
 
          <div className="imageAndTextRow">
@@ -144,28 +147,43 @@ console.log("Render")
           <p>Platinum Trusted Service - Feefo 2021</p>
        </div>
 
-       {/* <div>
-
-         <div className="footerTopSection">
-           <div className="footerTopSectionContent">
-             <div className="footerTopSectionContentImage">image</div>
-             <div className="footerTopSectionContentText">
-                <h5>Newsletter</h5>
+       <div className="section5">
+         <div className="blockWrapper">
+          <div className="singleBlock"></div>
+            <div className="block">
+              Block 1
+              <img src={coleSkateboard} />
+            </div>
+            
+            <div className="block">
+              <div className="blockContent">
+                <h6>NEWSLETTER</h6>
                 <h2>STAY IN TOUCH</h2>
                 <p>Get the latest deals, news and gear from Cole Skate Co!</p>
-                <button>SUBSCRIBE</button>
-             </div>
+                <span>Subscribe</span>
+              </div>
+            </div>
+         </div>
+
+
+
+       </div>
+
+       <div className="section6">
+           <div className="footerBottomSectionLeft">
+             <span>DELIVERY</span>
+             <span>TERMS</span>
+             <span>CONTACT US</span>
+           </div>
+           <div className="footerBottomSectionMiddle">
+             <img src={skateType} alt=""/>
+           </div>
+           <div className="footerBottomSectionRight">
+           <span>0141 370 321</span>
+           <span>EMAIL</span>
+           <span>INSTA</span>
            </div>
          </div>
-
-         <div className="footerBottomSection">
-           <div className="footerBottomSectionLeft"></div>
-           <div className="footerBottomSectionMiddle"></div>
-           <div className="footerBottomSectionRight"></div>
-         </div>
-
-       </div> */}
-
 
 
      </div>

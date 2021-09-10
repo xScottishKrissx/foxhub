@@ -46,7 +46,7 @@ Titles & Footer Background: #D1898B
 Highlight Text: #EEDACB
 
 */
-h1,h2,h3,h4,h5,h6{color: #D1898B;}
+h1,h2,h3,h4,h6{color: #D1898B;}
 p{color: black;}
 .imageRowItem > span{color: #D1898B;}
 
@@ -82,7 +82,22 @@ p{color: black;}
 #coleSkateboard{height: 160px; margin-bottom: 20px;}
 #skateType{height: 60px;}
 
+.section1 > p{
+  color: #EBEBEB;
+  width: 50%;
+}
 .section1 > button{position: relative; z-index: 10; margin-bottom: 30px;}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Section 2 */
 .section2{
@@ -233,7 +248,99 @@ p{color: black;}
   }
 
 /* section 4 */
-.section4{max-width: 1200px; margin: 0 auto;}
+.section4{
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 0px;
+}
 .section4 > img{
   max-width: 230px;
 }
+
+/* section 5 */
+.section5{
+  background-color: #1C1C1C;
+  width: 100%;
+}
+.blockWrapper {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  /* outline: 1px solid red; */
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+
+}
+  .block{
+    background-color: #1C1C1C;
+    /* flex: 1; */
+    /* outline: 1px solid black; */
+    min-height: 250px;
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    position: relative;
+    width: 40%;
+  }
+  
+  .block > img{
+
+    height: 300px;
+    position: absolute;
+    top: -120px;
+  }
+    .blockContent{
+      text-align: left;
+    }
+
+    
+    .blockContent > h6{
+      color: #EBEBEB;
+      padding: 0%;
+      margin: 0%;
+    }
+    .blockContent > h2{
+      font-size: 2rem;
+      padding: 0;
+      margin: 10px 0 5px 0;
+    }
+    .blockContent > p {
+      color: #EBEBEB;
+      margin: 0;
+     margin-top: 10px;
+     margin-bottom: 30px;
+     width: 75%;
+    }
+    .blockContent > span{
+      color: #D1898B;
+      outline: 2px solid #D1898B;
+      padding: 5px;
+    }
+.singleBlock{
+  /* background-color: red; */
+  width: 100%;
+}
+
+
+
+
+  .section6{
+    background-color: #D1898B;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+  }
+    .section6 > div > img{height: 50px;}
+    .section6 > div{
+      display: flex;
+      align-items: center;
+    }
+    .section6 > div > span{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
