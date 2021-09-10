@@ -47,7 +47,7 @@ Highlight Text: #EEDACB
 
 */
 h1,h2,h3,h4,h5,h6{color: #D1898B;}
-p{color: #EEDACB;}
+p{color: black;}
 .imageRowItem > span{color: #D1898B;}
 
 /* Section 1 */
@@ -87,10 +87,12 @@ p{color: #EEDACB;}
 /* Section 2 */
 .section2{
   /* outline: 1px solid red; */
+  margin: 0 auto;
+  max-width: 1200px;
 }
 .section2 > p{
   color: black ; 
-  margin: 0;
+  margin: 0 ;
   padding: 0; 
 }
 
@@ -98,9 +100,9 @@ p{color: #EEDACB;}
   margin: 0; 
     margin-top: 10px; 
     margin-bottom:30px ;
-    margin: 0 auto;
+    
   padding: 0; 
-  max-width: 1200px;
+
 }
 
 .imageRow{
@@ -133,3 +135,100 @@ p{color: #EEDACB;}
       margin-bottom: 20px;
       margin-top: 20px;
     }
+
+/********************* Section 3 */
+
+.section3{
+  background-color: #EBEBEB;
+  position: relative;
+  min-height: 800px;
+}
+.curved.upper{
+  position: absolute; 
+  top: 0;
+  width: 100%;
+}
+
+.curved.upper svg{
+  background-color: white;
+}
+
+.curved.lower {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.curved.lower > svg{background-color: #EBEBEB;}
+
+
+.imageAndTextRow{
+  display: flex;
+    align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 1200px;
+
+  padding-top: 30px;
+  position: relative;
+  width: 80%;
+  z-index: 10;
+  /* padding: 20px; */
+}
+.imageAndTextRow.lower{
+  flex-direction: row-reverse;
+}
+
+.imageAndTextRowText{
+  text-align: left;
+  width: 50%;
+}
+.imageAndTextRowText > *{
+  width: 80%;
+  /* outline: 1px solid red; */
+}
+  .imageAndTextRowText > button{
+    border: 0;
+    background-color: #ffffff00;
+    padding: 0;
+    text-decoration: underline;
+    width: initial;
+  }
+.imageAndTextRowImage{
+  /* outline: 1px solid red; */
+  height: 300px;
+  width: 50%;
+}
+  .imageContainer{
+    /* background-image: url('./images/interview_image.jpg'); */
+
+    /* border-bottom-right-radius: 100%; */
+    
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    /* outline: 1px solid black; */
+    position: relative;
+    width: 80%;
+      max-width: 300px;
+    
+      /* border-radius: 0% 0% 30% 0%/0% 0% 30% 0%;; */
+  }
+    #interviewImage{
+      background-image: url('./images/interview_image.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    #socialImage{
+      background-image: url('./images/social_image.jpeg');
+      background-size: cover;
+      background-position: bottom;
+    }
+  .imageContainer > svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* transform: rotateY(180deg); */
+  }
+
