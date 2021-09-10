@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+/* 
+
+Main Background: #F0F3F4
+Swoosh Background: #EBEBEB
+Text & Newsletter Background: #1C1C1C
+Titles & Footer Background: #D1898B
+Highlight Text: #EEDACB
+
+*/
+h1,h2,h3,h4,h5,h6{color: #D1898B;}
+p{color: #EEDACB;}
+.imageRowItem > span{color: #D1898B;}
+
+/* Section 1 */
+.section1 {
+  
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  /* padding-bottom: 100px; */
+  position: relative;
+  text-align: center;
+  
+}
+  .gradientSection{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 80%) 53%);
+    height: 100%;
+    /* outline: 1px solid red; */
+    position: absolute;
+    width: 100%;
+    z-index: 0 !important;
+  }
+.section1 > *{z-index: 10;}
+
+#section1ImageWrapper { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 200px;  */
+  padding-top: 50px;
+}
+#coleSkateboard{height: 160px; margin-bottom: 20px;}
+#skateType{height: 60px;}
+
+.section1 > button{position: relative; z-index: 10; margin-bottom: 30px;}
+
