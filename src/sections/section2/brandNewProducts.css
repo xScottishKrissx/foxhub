@@ -5,6 +5,23 @@
     max-width: 1200px;
     padding-top: 70px;
     padding-bottom: 70px;
+    animation: animateProduct 3s;
+    animation-fill-mode: forwards;
+  }
+
+  .animateTest{
+    animation: animateSectionTest 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes animateSectionTest {
+    0%{
+      /* background-color: red; */
+      transform: translateY(250px);
+    }
+    100%{
+      /* background-color: yellow; */
+      transform: translateY(0px);
+    }
   }
   .section2 > p{
     color: black ; 
@@ -85,6 +102,17 @@
           max-width: 350px;
           width: 100%;
           margin: 0 auto;
+          /* animation: animateProduct 3s;
+          animation-fill-mode: forwards; */
+        }
+
+        @keyframes animateProduct {
+          0%{
+            transform: translateY(100px);
+          }
+          100%{
+            transform: translateY(0px);
+          }
         }
         .imageAndTextRow.lower{
           flex-direction: row-reverse;
@@ -99,5 +127,6 @@
           /* max-width: 400px; */
           width: 25%;
           margin: 0 auto;
+          min-height: 400px;
         }
       }

@@ -11,5 +11,18 @@
   }
   .section4 > img{
     max-width: 230px;
+    animation: pulseStars 10s;
+  }
+  @keyframes pulseStars {
+    0%{
+      transform: scale(0.5);
+    }
+
+    95%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
   }
   

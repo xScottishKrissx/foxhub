@@ -6,16 +6,21 @@ import wheels from '../../images/wheels_1.jpg';
 import shoes from '../../images/shoes_1.jpg';
 
 export const BrandNewProducts = (props) =>{
-    
+
+
+
 return(
     <>
-        <div className="section2">
+    
+        <div id="test" className="section2">
 
             <p>Keep it fresh</p>
             <h2>BRAND NEW PRODUCTS</h2>
+
+
             <div className="imageRow">
 
-                <div className="imageRowItem">
+                <div id="item1" className="imageRowItem">
                 <img src={deck} alt="text" />
                 <span>RIPNDIP BUTTERFLY DECK LAVENDER - 8.25"</span>
                 </div>

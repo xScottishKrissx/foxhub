@@ -205,6 +205,13 @@
       padding-right: 40px;
       padding-bottom: 25px;
 }
+  #menuFooter > span{
+    cursor: pointer;
+    color: #D1898B;
+  }
+  #menuFooter > span:hover{
+    text-decoration: underline;
+  }
 
 @media (min-width: 768px) {
   .menu{
