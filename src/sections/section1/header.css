@@ -74,33 +74,63 @@
    /*  Menu */
 
    nav{
-     background-color: white;
+     background-color: rgba(255, 255, 255, 0);
      display: flex;
       justify-content: space-between;
      height: auto;
-     outline: 1px solid white;
-     position: absolute;
+     /* outline: 1px solid white; */
+     position: fixed;
      top: 0;
      width: 100%;
    }
+   .navbar{
+     background-color: #ffffff00;
+     color: #D1898B;
+    cursor: pointer; 
+    padding: 30px;
+     
+   }
+
+    .logo{height: 30px;}
 
    .menu{
-     background-color: red;
-     outline: 1px solid red;
+     background-color: #1C1C1C;
+     color: #EEDACB;
+     display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+     /* outline: 1px solid red; */
      position: fixed;
-     /* display: none; */
-     width: 300px;
+     min-height: 100%;
      right: -10000px;
-     top: 100px;
+     text-transform: uppercase;
+     top: 0px;
+     width: 100%;
+     /* max-width: 500px; */
      z-index: 100;
    }
    .openMenu{
+     box-shadow:0px 10px 15px 0px #D1898B;
     right: 0;
-    top: 100px;
-    animation: animaateMenu 1s;
+    animation: animateMenu 1s;
     animation-fill-mode: forwards;
    }
-   @keyframes animaateMenu {
+   .websiteLogo, .toggleMenuButton{
+    position: relative; 
+    z-index: 10;
+   }
+   #menuBackground{position: fixed;}
+   .menuBackground{
+    background-color: #1c1c1cb8;
+    height: 100%;
+
+    position: fixed; 
+    width: 100%;
+    z-index: 5;
+     
+
+   }
+   @keyframes animateMenu {
     0%{
       right: -1000px;
     }
@@ -109,7 +139,7 @@
       right: 10px;
     }
     100%{
-      right: 10px;
+      right: 0px;
     }
   }
   
@@ -134,3 +164,50 @@
     height: 100%;
     overflow: hidden;
   }
+
+  #menuHeader{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 25px;
+  }
+    #menuHeader > span{
+      cursor: pointer;
+    }
+    .toggleMenuButton span{
+      font-size: 30px;
+    }
+  #menuItems{
+    text-align: left;
+  }
+    #menuItems ul{
+      list-style-type: none;
+      text-align: left;
+    }
+      #menuItems ul li{
+        font-family: 'Poppins', sans-serif;
+        /* font-size: 28px; */
+        font-size: 2rem;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+        #menuItems ul li:hover{
+          color: #D1898B;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+
+#menuFooter{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .menu{
+    max-width: 500px;
+  }
+}
