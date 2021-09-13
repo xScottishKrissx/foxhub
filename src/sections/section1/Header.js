@@ -1,8 +1,8 @@
 import './header.css';
 
-import backgroundImage from '../../../images/background_image.jpeg'
-import coleSkateboard from '../../../images/cole_skateboard.png'
-import skateType  from '../../../images/skate_type.png'
+import backgroundImage from '../../images/background_image.jpeg'
+import coleSkateboard from '../../images/cole_skateboard.png'
+import skateType  from '../../images/skate_type.png'
 
 const style = {
     backgroundImage: 'url(' + backgroundImage + ')',

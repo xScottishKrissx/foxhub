@@ -93,13 +93,13 @@
         /* border-radius: 0% 0% 30% 0%/0% 0% 30% 0%;; */
     }
       #interviewImage{
-        background-image: url('../../../images/interview_image.jpg');
+        background-image: url('../../images/interview_image.jpg');
         background-size: cover;
         background-position: center;
       }
   
       #socialImage{
-        background-image: url('../../../images/social_image.jpeg');
+        background-image: url('../../images/social_image.jpeg');
         background-size: cover;
         background-position: bottom;
       }

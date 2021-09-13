@@ -2,12 +2,12 @@
 import React from 'react';
 import './App.css';
 
-import Header from './images/sections/section1/Header';
-import BrandNewProducts from './images/sections/section2/brandNewProducts';
-import WebsiteContentInfo from './images/sections/section3/websiteContentInfo';
-import Review from './images/sections/section4/review';
-import NewsletterSignUp from './images/sections/section5/newsletterSignUp';
-import Footer from './images/sections/section6/footer';
+import Header from './sections/section1/Header';
+import BrandNewProducts from './sections/section2/brandNewProducts';
+import WebsiteContentInfo from './sections/section3/websiteContentInfo';
+import Review from './sections/section4/review';
+import NewsletterSignUp from './sections/section5/newsletterSignUp';
+import Footer from './sections/section6/footer';
 
 
 function App() {

@@ -1,5 +1,5 @@
 import './review.css';
-import stars from '../../../images/stars_1.png'
+import stars from '../../images/stars_1.png'
 export const Review = (props) =>{
     
     return(

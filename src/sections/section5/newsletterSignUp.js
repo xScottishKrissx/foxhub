@@ -1,6 +1,6 @@
 import './newsletterSignUp.css';
 
-import coleSkateboard from '../../../images/cole_skateboard.png'
+import coleSkateboard from '../../images/cole_skateboard.png'
 
 export const NewsletterSignUp = (props) =>{
     

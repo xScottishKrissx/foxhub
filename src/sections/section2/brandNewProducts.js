@@ -1,9 +1,9 @@
 import './brandNewProducts.css'
 
-import deck from '../../../images/deck_1.jpg';
-import hoodie from '../../../images/hoodie_1.jpg';
-import wheels from '../../../images/wheels_1.jpg';
-import shoes from '../../../images/shoes_1.jpg';
+import deck from '../../images/deck_1.jpg';
+import hoodie from '../../images/hoodie_1.jpg';
+import wheels from '../../images/wheels_1.jpg';
+import shoes from '../../images/shoes_1.jpg';
 
 export const BrandNewProducts = (props) =>{
     
