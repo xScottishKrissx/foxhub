@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:ital,wght@0,700;0,800;1,900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -46,8 +48,29 @@ Titles & Footer Background: #D1898B
 Highlight Text: #EEDACB
 
 */
-h1,h2,h3,h4,h6{color: #D1898B;}
-p{color: black;}
+h1,h2,h3,h4,h6{
+  color: #D1898B; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+  h2{
+    font-size: 2rem;
+  }
+.imageRowItem > span{font-family: 'Poppins', sans-serif; 
+  font-weight: 900;}
+p{
+  color: rgb(163, 149, 149);
+  font-family: 'Open Sans', sans-serif;
+}
+
+button{
+    box-shadow: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    outline: double;
+    padding: 10px;
+}
+
 .imageRowItem > span{color: #D1898B;}
 
 /* Section 1 */
@@ -57,6 +80,7 @@ p{color: black;}
     flex-direction: column;
     align-items: center;
   /* padding-bottom: 100px; */
+  min-height: 50vh;
   position: relative;
   text-align: center;
   
@@ -77,16 +101,49 @@ p{color: black;}
   flex-direction: column;
   align-items: center;
   /* height: 200px;  */
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
-#coleSkateboard{height: 160px; margin-bottom: 20px;}
-#skateType{height: 60px;}
-
-.section1 > p{
-  color: #EBEBEB;
-  width: 50%;
+#coleSkateboard{
+  height: 160px; 
+  margin-bottom: 20px;}
+  
+#skateType{
+  height: 60px;
 }
-.section1 > button{position: relative; z-index: 10; margin-bottom: 30px;}
+
+.headerWrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.headerWrapper > p{
+  color: #EEDACB;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  /* width: 60%; */
+}
+.headerWrapper > button{
+  background-color: #ffffff00;
+  color: #EEDACB;
+  cursor: pointer;
+  outline-color:#D1898B;
+  position: relative; 
+  z-index: 10; 
+  
+}
+
+.headerWrapper > button:hover{
+  animation: headerWrapperButtonHover 1s;
+  animation-fill-mode: forwards; 
+  color:white;
+ }
+ @keyframes headerWrapperButtonHover {
+   0%{background-color: #ffffff00;}
+   50%{background-color: #D1898B;}
+   100%{background-color: #D1898B;}
+ }
 
 
 
@@ -99,11 +156,14 @@ p{color: black;}
 
 
 
-/* Section 2 */
+
+/************************************ Section 2 */
 .section2{
   /* outline: 1px solid red; */
   margin: 0 auto;
   max-width: 1200px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .section2 > p{
   color: black ; 
@@ -122,7 +182,7 @@ p{color: black;}
 
 .imageRow{
   display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
   /* outline: 1px solid black; */
 }
@@ -132,12 +192,13 @@ p{color: black;}
       align-items: center;
     /* max-width: 220px; */
     /* outline: 1px solid red; */
-    width: 25%;
+    /* width: 25%; */
   }
     .imageRowItem > img{
-      box-shadow: 0px 13px 20px 0px #00000075;
+      box-shadow: 0px 13px 20px 0px #00000030;
       height: auto; 
       width: 80%;
+        max-width: 400px;
       /* width: 180px; */
     }
 
@@ -146,17 +207,62 @@ p{color: black;}
       margin-top: 30px;
       width: 80%;
     }
-    .section2 > button{
-      margin-bottom: 20px;
-      margin-top: 20px;
-    }
+.section2 > button{
+  color: #D1898B;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  outline-color: #D1898B;
+  padding: 5px;
+  width: 145px;
+}
 
+  .section2 > button:hover{
+   animation: section2ButtonHover 1s;
+   animation-fill-mode: forwards; 
+   color: white;
+  }
+  @keyframes section2ButtonHover {
+    0%{background-color: white;}
+    50%{background-color: #D1898B;}
+    100%{background-color: #D1898B;}
+  }
+
+
+    @media (min-width: 768px) {
+      .imageRow{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .imageRowItem{
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .imageAndTextRow.lower{
+        flex-direction: row-reverse;
+      }
+      .imageAndTextRow.upper{
+        flex-direction: row;
+      }
+
+    }
+    @media (min-width: 1024px) {
+      .imageRowItem{
+        /* max-width: 400px; */
+        width: 25%;
+        margin: 0 auto;
+      }
+    }
 /********************* Section 3 */
 
 .section3{
   background-color: #EBEBEB;
   position: relative;
-  min-height: 800px;
+  /* min-height: 800px; */
 }
 .curved.upper{
   position: absolute; 
@@ -176,35 +282,51 @@ p{color: black;}
 }
 .curved.lower > svg{background-color: #EBEBEB;}
 
-
+.imageAndTextRowWrapper{
+  display: flex;
+    flex-direction: column;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
 .imageAndTextRow{
   display: flex;
     align-items: center;
+    flex-direction: column;
   margin: 0 auto;
   margin-bottom: 50px;
   max-width: 1200px;
 
-  padding-top: 30px;
+  /* padding-top: 30px; */
   position: relative;
   width: 80%;
+    max-width: 900px;
   z-index: 10;
   /* padding: 20px; */
 }
 .imageAndTextRow.lower{
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 }
 
 .imageAndTextRowText{
+  font-size: 13px;
+  margin-bottom: 30px;
   text-align: left;
-  width: 50%;
+  width: 100%;
 }
 .imageAndTextRowText > *{
-  width: 80%;
+  /* width: 80%; */
   /* outline: 1px solid red; */
 }
+  .imageAndTextRowText > p{
+    color: black;
+    /* font-weight: bold; */
+  }
   .imageAndTextRowText > button{
     border: 0;
     background-color: #ffffff00;
+    color: #D1898B;
+    cursor: pointer;
+    outline: none;
     padding: 0;
     text-decoration: underline;
     width: initial;
@@ -212,7 +334,7 @@ p{color: black;}
 .imageAndTextRowImage{
   /* outline: 1px solid red; */
   height: 300px;
-  width: 50%;
+  width: 100%;
 }
   .imageContainer{
     /* background-image: url('./images/interview_image.jpg'); */
@@ -224,7 +346,7 @@ p{color: black;}
     margin: 0 auto;
     /* outline: 1px solid black; */
     position: relative;
-    width: 80%;
+    width: 100%;
       max-width: 300px;
     
       /* border-radius: 0% 0% 30% 0%/0% 0% 30% 0%;; */
@@ -249,22 +371,28 @@ p{color: black;}
 
 /* section 4 */
 .section4{
+  font-size: 13px;
   max-width: 1200px; 
   margin: 0 auto;
-  padding-bottom: 100px;
-  padding-top: 0px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.section4 > *{
+  color: black;
 }
 .section4 > img{
   max-width: 230px;
 }
 
-/* section 5 */
+/************************************************** section 5 */
 .section5{
   background-color: #1C1C1C;
   width: 100%;
 }
 .blockWrapper {
   display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
   /* outline: 1px solid red; */
@@ -283,7 +411,7 @@ p{color: black;}
     align-items: normal;
     justify-content: center;
     position: relative;
-    width: 40%;
+    width: 100%;
   }
   
   .block > img{
@@ -298,7 +426,10 @@ p{color: black;}
 
     
     .blockContent > h6{
-      color: #EBEBEB;
+      color: #EEDACB;
+      font-family: 'Open Sans',sans-serif;
+      font-size: 13px;
+      font-weight: normal;
       padding: 0%;
       margin: 0%;
     }
@@ -308,39 +439,80 @@ p{color: black;}
       margin: 10px 0 5px 0;
     }
     .blockContent > p {
-      color: #EBEBEB;
+      color: #EEDACB;
       margin: 0;
      margin-top: 10px;
      margin-bottom: 30px;
      width: 75%;
     }
-    .blockContent > span{
+    .blockContent > button{
+      background-color: #ffffff00;
       color: #D1898B;
-      outline: 2px solid #D1898B;
+      cursor: pointer;
+      /* outline: 2px solid #D1898B; */
+      outline-color: #D1898B;
       padding: 5px;
+      text-transform: uppercase;
+      width: 145px;
+    }
+    .blockContent > button:hover{
+      animation: buttonHover 1s;
+      animation-fill-mode: forwards;
+      color:#1c1c1c ;
+    }
+    @keyframes buttonHover {
+      0%{background-color: #ffffff00;}
+      50%{background-color: #D1898B;}
+      100%{background-color: #D1898B;}
     }
 .singleBlock{
   /* background-color: red; */
   width: 100%;
 }
 
+    @media (min-width: 768px) {
+      .blockWrapper{
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
 
+    }
 
-
-  .section6{
+/************************* Section 6  */
+.section6{
+  width: 100%;
+  background-color: #D1898B;
+}
+  .footerWrapper{
     background-color: #D1898B;
     display: flex;
-    justify-content: space-around;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    margin: 0 auto;
     padding-bottom: 15px;
     padding-top: 15px;
     width: 100%;
+    max-width: 1200px;
   }
-    .section6 > div > img{height: 50px;}
-    .section6 > div{
+  
+    .footerWrapper > div > img{height: 50px;}
+    .footerWrapper > div{
       display: flex;
-      align-items: center;
+        align-items: center;
+      padding: 10px;
     }
-    .section6 > div > span{
+    .footerWrapper > div > span{
+      cursor: pointer;
+      font-size: 13px;
       margin-left: 10px;
       margin-right: 10px;
+      text-decoration: underline;
+    }
+
+    @media (min-width: 768px) {
+      .footerWrapper{
+        flex-direction: row;
+      }
+
     }
