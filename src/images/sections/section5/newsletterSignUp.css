@@ -1,0 +1,93 @@
+/************************************************** section 5 */
+.section5{
+    background-color: #1C1C1C;
+    width: 100%;
+  }
+  .blockWrapper {
+    display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 40px;
+    /* padding-bottom: 40px; */
+  
+  }
+    .block{
+      background-color: #1C1C1C;
+      /* flex: 1; */
+      /* outline: 1px solid black; */
+      min-height: 250px;
+      display: flex;
+      align-items: normal;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+    }
+    
+    .block > img{
+  
+      height: 300px;
+      position: absolute;
+      top: -120px;
+    }
+      .blockContent{
+        text-align: left;
+      }
+  
+      
+      .blockContent > h6{
+        color: #EEDACB;
+        font-family: 'Open Sans',sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 0%;
+        margin: 0%;
+      }
+      .blockContent > h2{
+        font-size: 2rem;
+        padding: 0;
+        margin: 10px 0 5px 0;
+      }
+      .blockContent > p {
+        color: #EEDACB;
+        margin: 0;
+       margin-top: 10px;
+       margin-bottom: 30px;
+       width: 75%;
+      }
+      .blockContent > button{
+        background-color: #ffffff00;
+        color: #D1898B;
+        cursor: pointer;
+        /* outline: 2px solid #D1898B; */
+        outline-color: #D1898B;
+        padding: 5px;
+        text-transform: uppercase;
+        width: 145px;
+      }
+      .blockContent > button:hover{
+        animation: buttonHover 1s;
+        animation-fill-mode: forwards;
+        color:#1c1c1c ;
+      }
+      @keyframes buttonHover {
+        0%{background-color: #ffffff00;}
+        50%{background-color: #D1898B;}
+        100%{background-color: #D1898B;}
+      }
+  .singleBlock{
+    /* background-color: red; */
+    width: 100%;
+  }
+  
+      @media (min-width: 768px) {
+        .blockWrapper{
+          flex-direction: row;
+          flex-wrap: nowrap;
+        }
+  
+      }
