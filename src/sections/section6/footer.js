@@ -21,9 +21,9 @@ return(
                 </div>
 
                 <div className="footerBottomSectionRight">
-                    <span>0141 370 321</span>
+                    <span>0141 369 5433</span>
                     <span>EMAIL</span>
-                    <span>INSTA</span>
+                    <span>INSTAGRAM</span>
                 </div>
             </div>
         </div>

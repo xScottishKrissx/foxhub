@@ -20,7 +20,7 @@ export const NewsletterSignUp = (props) =>{
                         <div className="blockContent">
                             <h6>NEWSLETTER</h6>
                             <h2>STAY IN TOUCH !</h2>
-                            <p>Get the latest deals, news and gear from Cole Skate Co!</p>
+                            <p>Get the latest fox updates, merchandise and aid efforts from Fox Hub</p>
                             <button>Subscribe</button>
                         </div>
                     </div>

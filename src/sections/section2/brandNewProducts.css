@@ -51,6 +51,8 @@
       display: flex;
         flex-direction: column;
         align-items: center;
+      margin: 0 auto;
+        margin-bottom: 30px;
       /* max-width: 220px; */
       /* outline: 1px solid red; */
       /* width: 25%; */
@@ -67,7 +69,7 @@
         color: #ff5f38;
         font-family: 'Poppins', sans-serif; 
         font-weight: 900;
-        margin-top: 30px;
+        margin-top: 20px;
         width: 80%;
       }
       
@@ -104,7 +106,7 @@
         .imageRowItem{
           max-width: 350px;
           width: 100%;
-          margin: 0 auto;
+          /* margin: 0 auto; */
           /* animation: animateProduct 3s;
           animation-fill-mode: forwards; */
         }
@@ -129,7 +131,25 @@
         .imageRowItem{
           /* max-width: 400px; */
           width: 25%;
-          margin: 0 auto;
+          /* margin: 0 auto; */
           min-height: 400px;
         }
       }
+
+/* Shennanigans */
+#showMessage{
+  display: none;
+}
+.showMessage{
+  display: block !important;
+  animation: showMessageSlide 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes showMessageSlide {
+  0%{
+    transform: translateY(200px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

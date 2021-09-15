@@ -90,13 +90,13 @@
         /* border-radius: 0% 0% 30% 0%/0% 0% 30% 0%;; */
     }
       #interviewImage{
-        background-image: url('../../images/interview_image.jpg');
+        background-image: url('../../images/foxesCommunicate1_original.jpg');
         background-size: cover;
         background-position: center;
       }
   
       #socialImage{
-        background-image: url('../../images/social_image.jpeg');
+        background-image: url('../../images/foxes_misconception_original.jpg');
         background-size: cover;
         background-position: bottom;
       }

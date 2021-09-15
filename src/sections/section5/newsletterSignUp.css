@@ -86,7 +86,7 @@
   
       @media (min-width: 768px) {
         .blockWrapper{
-          flex-direction: row;
+          flex-direction: row-reverse;
           flex-wrap: nowrap;
         }
   
