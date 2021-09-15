@@ -14,35 +14,37 @@ return(
     
         <div id="test" className="section2">
 
-            <p>Keep it fresh</p>
-            <h2>BRAND NEW PRODUCTS</h2>
+            <div className="section2Content">
+                <p>Keep it fresh</p>
+                    <h2>BRAND NEW PRODUCTS</h2>
 
 
-            <div className="imageRow">
+                    <div className="imageRow">
 
-                <div id="item1" className="imageRowItem">
-                <img src={deck} alt="text" />
-                <span>RIPNDIP BUTTERFLY DECK LAVENDER - 8.25"</span>
-                </div>
+                        <div id="item1" className="imageRowItem">
+                        <img src={deck} alt="text" />
+                        <span>RIPNDIP BUTTERFLY DECK LAVENDER - 8.25"</span>
+                        </div>
 
-                <div className="imageRowItem">
-                <img src={hoodie} alt="text" />
-                <span>THRASHER MAG PULLOVER HOOD - BLACK</span>
-                </div>
+                        <div className="imageRowItem">
+                        <img src={hoodie} alt="text" />
+                        <span>THRASHER MAG PULLOVER HOOD - BLACK</span>
+                        </div>
 
-                <div className="imageRowItem">
-                <img src={wheels} alt="text" />
-                <span>SPITFIRE WHEELS NATURAL/YELLOW - 55MM</span>
-                </div>
+                        <div className="imageRowItem">
+                        <img src={wheels} alt="text" />
+                        <span>SPITFIRE WHEELS NATURAL/YELLOW - 55MM</span>
+                        </div>
 
-                <div className="imageRowItem">
-                <img src={shoes} alt="text" />
-                <span>DC SWITCH SKATE SHOE -WHITE/GUM</span>
-                </div>
+                        <div className="imageRowItem">
+                        <img src={shoes} alt="text" />
+                        <span>DC SWITCH SKATE SHOE -WHITE/GUM</span>
+                        </div>
 
+                    </div>
+
+                    <button>SEE MORE</button>
             </div>
-
-            <button>SEE MORE</button>
 
         </div>
     </>
