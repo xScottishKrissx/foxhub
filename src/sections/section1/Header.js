@@ -2,9 +2,6 @@ import './header.css';
 import React from 'react'
 
 import backgroundImage from '../../images/fox1.jpg'
-import coleSkateboard from '../../images/cole_skateboard.png'
-import skateType  from '../../images/skate_type.png'
-import coleType from '../../images/cole_type.png'
 import foxIcon from '../../images/fox-hub.png'
 import foxLogo from '../../images/fox-hub-2-mixed-text.png'
 
@@ -101,7 +98,7 @@ const style = {
 
                 <header className="headerWrapper">
                 <span id="section1ImageWrapper">
-                    <img id="coleSkateboard" src={foxLogo} alt="text" />
+                    <img id="foxLogo" src={foxLogo} alt="text" />
                     {/* <img id="skateType" alt="text" src={foxIcon} /> */}
                 </span>
 

@@ -1,6 +1,5 @@
 import './newsletterSignUp.css';
 
-import coleSkateboard from '../../images/cole_skateboard.png'
 import foxHubLogo from '../../images/fox-hub.png'
 
 export const NewsletterSignUp = (props) =>{

@@ -41,16 +41,12 @@ tertiary - black
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 200px;  */
-    /* padding-top: 50px; */
   }
-  #coleSkateboard{
+  #foxLogo{
     height: 160px; 
     margin-bottom: 20px;}
     
-  #skateType{
-    height: 60px;
-  }
+
   
   .headerWrapper{
     position: absolute;
@@ -83,8 +79,8 @@ tertiary - black
    }
    @keyframes headerWrapperButtonHover {
      0%{background-color: #ffffff00;}
-     50%{background-color: #D1898B;}
-     100%{background-color: #D1898B;}
+     50%{background-color: #ff5f38;}
+     100%{background-color: #ff5f38;}
    }
 
    /*  Menu */

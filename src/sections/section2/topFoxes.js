@@ -1,11 +1,11 @@
-import './brandNewProducts.css'
+import './topFoxes.css'
 
-import deck from '../../images/arcticFox_square.jpg';
-import hoodie from '../../images/fennecFox_square.jpg';
-import wheels from '../../images/hoaryFox_square.jpeg';
-import shoes from '../../images/redFox_square.jpg';
+import square1Img from '../../images/arcticFox_square.jpg';
+import square2Img from '../../images/fennecFox_square.jpg';
+import square3Img from '../../images/hoaryFox_square.jpeg';
+import square4Img from '../../images/redFox_square.jpg';
 
-export const BrandNewProducts = (props) =>{
+export const TopFoxes = (props) =>{
 
     function showMessage(){
         
@@ -20,32 +20,32 @@ export const BrandNewProducts = (props) =>{
 return(
     <>
     
-        <div id="test" className="section2">
+        <div className="section2">
 
             <div className="section2Content">
-                <p>Welcome to foxes</p>
+                {/* <p>Welcome to foxes</p> */}
                     <h2>THE TOP 4 FOXES</h2>
 
 
                     <div className="imageRow">
 
                         <div id="item1" className="imageRowItem">
-                        <img src={deck} alt="text" />
+                        <img src={square1Img} alt="text" />
                         <span>Arctic Fox <br/> ( Lycalopex vetulus )</span>
                         </div>
 
                         <div className="imageRowItem">
-                        <img src={hoodie} alt="text" />
+                        <img src={square2Img} alt="text" />
                         <span>Fennec Fox <br /> ( Vulpes zerda )</span>
                         </div>
 
                         <div className="imageRowItem">
-                        <img src={wheels} alt="text" />
+                        <img src={square3Img} alt="text" />
                         <span>Hoary Fox <br /> ( Lycalopex vetulus )</span>
                         </div>
 
                         <div className="imageRowItem">
-                        <img src={shoes} alt="text" />
+                        <img src={square4Img} alt="text" />
                         <span>Red Fox <br /> ( Vulpes vulpes )</span>
                         </div>
 
@@ -66,4 +66,4 @@ return(
 
 }
 
-export default BrandNewProducts;
+export default TopFoxes;
