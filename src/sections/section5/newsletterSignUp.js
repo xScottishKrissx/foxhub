@@ -1,6 +1,7 @@
 import './newsletterSignUp.css';
 
 import coleSkateboard from '../../images/cole_skateboard.png'
+import foxHubLogo from '../../images/fox-hub.png'
 
 export const NewsletterSignUp = (props) =>{
     
@@ -12,7 +13,7 @@ export const NewsletterSignUp = (props) =>{
                 {/* <div className="singleBlock"></div> */}
                     <div className="block">
                         Block 1
-                        <img src={coleSkateboard} />
+                        <img src={foxHubLogo} />
                     </div>
 
                     <div className="block">

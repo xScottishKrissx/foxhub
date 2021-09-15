@@ -1,6 +1,6 @@
 import './brandNewProducts.css'
 
-import deck from '../../images/deck_1.jpg';
+import deck from '../../images/fox-square-1c.jpg';
 import hoodie from '../../images/hoodie_1.jpg';
 import wheels from '../../images/wheels_1.jpg';
 import shoes from '../../images/shoes_1.jpg';
@@ -15,8 +15,8 @@ return(
         <div id="test" className="section2">
 
             <div className="section2Content">
-                <p>Keep it fresh</p>
-                    <h2>BRAND NEW PRODUCTS</h2>
+                <p>Welcome to foxes</p>
+                    <h2>THE TOP 4 FOXES</h2>
 
 
                     <div className="imageRow">

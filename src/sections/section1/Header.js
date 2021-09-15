@@ -1,7 +1,7 @@
 import './header.css';
 import React from 'react'
 
-import backgroundImage from '../../images/background_image.jpeg'
+import backgroundImage from '../../images/fox1.jpg'
 import coleSkateboard from '../../images/cole_skateboard.png'
 import skateType  from '../../images/skate_type.png'
 import coleType from '../../images/cole_type.png'

@@ -64,7 +64,7 @@
       }
   
       .imageRowItem > span {
-        color: #D1898B;
+        color: #ff5f38;
         font-family: 'Poppins', sans-serif; 
         font-weight: 900;
         margin-top: 30px;
@@ -72,12 +72,12 @@
       }
       
   .section2Content > button{
-    color: #D1898B;
+    color: #ff5f38;
     background-color: white;
     cursor: pointer;
     margin-bottom: 20px;
     margin-top: 20px;
-    outline-color: #D1898B;
+    outline-color: #ff5f38;
     padding: 5px;
     width: 145px;
   }
@@ -89,8 +89,8 @@
     }
     @keyframes section2ButtonHover {
       0%{background-color: white;}
-      50%{background-color: #D1898B;}
-      100%{background-color: #D1898B;}
+      50%{background-color: #ff5f38;}
+      100%{background-color: #ff5f38;}
     }
   
   
