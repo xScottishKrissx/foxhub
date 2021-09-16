@@ -16,7 +16,10 @@
       max-width: 1200px;
     }
     
-      .footerWrapper > div > img{height: 50px;}
+      .footerWrapper > div > img{
+        height: 50px;
+      }
+
       .footerWrapper > div{
         display: flex;
           align-items: center;
@@ -33,6 +36,5 @@
       @media (min-width: 768px) {
         .footerWrapper{
           flex-direction: row;
-        }
-  
+        }  
       }

@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-
 import Header from './sections/section1/Header';
 import BrandNewProducts from './sections/section2/brandNewProducts';
 import WebsiteContentInfo from './sections/section3/websiteContentInfo';

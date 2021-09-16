@@ -74,20 +74,13 @@
     height: 300px;
     width: 100%;
   }
-    .imageContainer{
-      /* background-image: url('./images/interview_image.jpg'); */
-  
-      /* border-bottom-right-radius: 100%; */
-      
+    .imageContainer{    
       display: block;
       height: 100%;
       margin: 0 auto;
-      /* outline: 1px solid black; */
       position: relative;
       width: 100%;
         max-width: 300px;
-      
-        /* border-radius: 0% 0% 30% 0%/0% 0% 30% 0%;; */
     }
       #interviewImage{
         background-image: url('../../images/interview_image.jpg');
@@ -104,5 +97,4 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      /* transform: rotateY(180deg); */
     }

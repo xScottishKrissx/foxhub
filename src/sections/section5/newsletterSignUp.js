@@ -9,7 +9,6 @@ export const NewsletterSignUp = (props) =>{
         <>
             <div className="section5">
                 <div className="blockWrapper">
-                {/* <div className="singleBlock"></div> */}
                     <div className="block">
                         Block 1
                         <img src={coleSkateboard} />

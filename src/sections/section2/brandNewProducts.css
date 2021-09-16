@@ -15,11 +15,9 @@
   }
   @keyframes animateSectionTest {
     0%{
-      /* background-color: red; */
       transform: translateY(250px);
     }
     100%{
-      /* background-color: yellow; */
       transform: translateY(0px);
     }
   }

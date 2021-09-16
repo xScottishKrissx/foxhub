@@ -12,7 +12,6 @@ const style = {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     height: "auto",
-    // maxWidth:"1200px",
     width:"100%",
   }
 
@@ -26,21 +25,7 @@ const style = {
         window.addEventListener('scroll', this.scroll);   
     }
 
-    scroll = (e) => {
-        // e.preventDefault()
-        // A bunch of stuff used to detect the current scroll position...
-        const windowHeight = "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight;
-        const body = document.body;
-        const html = document.documentElement;
-        const docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight,  html.scrollHeight, html.offsetHeight);
-        // ...this is what is actually used.
-        const windowBottom = windowHeight + window.pageYOffset + 100;
-    
 
-        // console.log(windowBottom)
-
-        // if(windowBottom >= 1700)document.getElementById("section3").classList.add('animateTest')
-    }
 
     toggleMenu(){
         

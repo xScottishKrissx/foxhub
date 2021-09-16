@@ -3,7 +3,7 @@ import './brandNewProducts.css'
 import deck from '../../images/deck_1.jpg';
 import hoodie from '../../images/hoodie_1.jpg';
 import wheels from '../../images/wheels_1.jpg';
-import shoes from '../../images/shoes_1.jpg';
+import shoes from '../../images/shoes.jpg';
 
 export const BrandNewProducts = (props) =>{
 
@@ -12,7 +12,7 @@ export const BrandNewProducts = (props) =>{
 return(
     <>
     
-        <div id="test" className="section2">
+        <div className="section2">
 
             <p>Keep it fresh</p>
             <h2>BRAND NEW PRODUCTS</h2>

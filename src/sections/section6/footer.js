@@ -1,7 +1,9 @@
 import './footer.css'
 
+
 import coleTypeReverse from '../../images/cole_type_reverse.png'
 export const Footer = (props) =>{
+    
     
 return(
     
