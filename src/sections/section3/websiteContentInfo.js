@@ -19,10 +19,10 @@ export const WebsiteContentInfo = (props) =>{
                             <button>READ MORE</button>
                         </div>
                         <div className="imageAndTextRowImage">
-                            <span id="upperImage" className="imageContainer">
+                            <span id="interviewImage" className="imageContainer">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#EBEBEB" fill-opacity="1" d="M0,1200L1440,111L1440,320L0,320Z"></path></svg>
                             </span>
-                            
+                            {/* <img src={interviewImage} alt="text" /> */}
                         </div>
                     </div>
 
@@ -35,10 +35,10 @@ export const WebsiteContentInfo = (props) =>{
                         </div>
 
                         <div className="imageAndTextRowImage ">
-                            <span id="lowerImage" className="imageContainer">
+                            <span id="socialImage" className="imageContainer">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#EBEBEB" fill-opacity="1" d="M0,1200L1440,111L1440,320L0,320Z"></path></svg>
                             </span>
-                        
+                        {/* <img src={socialImage} alt="text" /> */}
                         </div>
                     </div>
 

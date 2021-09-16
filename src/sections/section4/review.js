@@ -1,15 +1,16 @@
-import './foxFriends.css';
-
+import './review.css';
+import stars from '../../images/stars_1.png'
 import sspcaLogo from '../../images/sspca_logo.png'
 import foxProjectLogo from '../../images/thefoxproject_colour.jpg'
 import wildlifeAidLogo from '../../images/wildlifeaidlogo_colour.jpg'
-export const FoxFriends = (props) =>{
+export const Review = (props) =>{
     
     return(
         
         <>
             <div className="section4">
                 <h5>FRIENDS OF FOXES</h5>
+                {/* <img src={stars} /> */}
                 <div>
                     <img src={sspcaLogo}/>
                     <img src={foxProjectLogo}/>
@@ -24,4 +25,4 @@ export const FoxFriends = (props) =>{
     )
 }
 
-export default FoxFriends;
+export default Review;

@@ -1,7 +1,7 @@
 import './footer.css'
 
+import coleTypeReverse from '../../images/cole_type_reverse.png'
 import foxHubIcon from '../../images/fox-hub-2.png'
-
 export const Footer = (props) =>{
     
 return(

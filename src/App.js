@@ -3,9 +3,9 @@ import React from 'react';
 import './App.css';
 
 import Header from './sections/section1/Header';
-import TopFoxes from './sections/section2/topFoxes';
+import BrandNewProducts from './sections/section2/brandNewProducts';
 import WebsiteContentInfo from './sections/section3/websiteContentInfo';
-import FoxFriends from './sections/section4/FoxFriends';
+import Review from './sections/section4/review';
 import NewsletterSignUp from './sections/section5/newsletterSignUp';
 import Footer from './sections/section6/footer';
 
@@ -15,9 +15,9 @@ function App() {
   return (
     <div className="App" >
       <Header />
-      <TopFoxes />
+      <BrandNewProducts />
       <WebsiteContentInfo />
-      <FoxFriends />
+      <Review />
       <NewsletterSignUp />
       <Footer />
     </div>
