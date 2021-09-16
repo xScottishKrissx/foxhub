@@ -14,31 +14,31 @@ export const WebsiteContentInfo = (props) =>{
 
                     <div className="imageAndTextRow upper">
                         <div className="imageAndTextRowText">
-                            <h2>INTERVIEW WITH DAEWON SONG</h2>
-                            <p> We got to sit down with Daewon at the London premiere for a chat on “what else is out there”</p>
+                            <h2>HOW FOXES COMMUNICATE</h2>
+                            <p>We go in depth with the different range of noises that foxes use to communicate with each other and anything  in their environment.</p>
                             <button>READ MORE</button>
                         </div>
                         <div className="imageAndTextRowImage">
-                            <span id="interviewImage" className="imageContainer">
+                            <span id="upperImage" className="imageContainer">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#EBEBEB" fill-opacity="1" d="M0,1200L1440,111L1440,320L0,320Z"></path></svg>
                             </span>
-                            {/* <img src={interviewImage} alt="text" /> */}
+                            
                         </div>
                     </div>
 
                     <div className="imageAndTextRow lower">
                         
                         <div className="imageAndTextRowText">
-                            <h2>KEEP IT SOCIAL </h2>
-                            <p>Follow us on Instagram for the latest tricks from the best skaters around the globe!</p>
-                            <button>FOLLOW US</button>
+                            <h2>MISCONCEPTIONS ABOUT FOXES</h2>
+                            <p>Less attacks than vending machines falling on people, let's talk about the "danger" of foxes</p>
+                            <button>READ MORE</button>
                         </div>
 
                         <div className="imageAndTextRowImage ">
-                            <span id="socialImage" className="imageContainer">
+                            <span id="lowerImage" className="imageContainer">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#EBEBEB" fill-opacity="1" d="M0,1200L1440,111L1440,320L0,320Z"></path></svg>
                             </span>
-                        {/* <img src={socialImage} alt="text" /> */}
+                        
                         </div>
                     </div>
 

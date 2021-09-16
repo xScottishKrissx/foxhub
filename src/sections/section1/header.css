@@ -1,14 +1,30 @@
 /* Section 1 */
+*{
+  /* outline: 1px solid red; */
+}
+
+/* 
+
+primary colour: #ff5f38;
+secondary colour: #f02600;
+tertiary - black
+*/
+
 .section1 {
   
     display: flex;
       flex-direction: column;
       align-items: center;
+      /* justify-content: flex-end; */
     /* padding-bottom: 100px; */
     min-height: 50vh;
     position: relative;
     text-align: center;
     
+  }
+  .section1 > svg{
+    position: relative;
+      bottom: 0;
   }
     .gradientSection{
       background: rgb(0,0,0);
@@ -25,16 +41,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 200px;  */
-    /* padding-top: 50px; */
   }
-  #coleSkateboard{
+  #foxLogo{
     height: 160px; 
     margin-bottom: 20px;}
     
-  #skateType{
-    height: 60px;
-  }
+
   
   .headerWrapper{
     position: absolute;
@@ -44,7 +56,7 @@
     z-index: 1;
   }
   .headerWrapper > p{
-    color: #EEDACB;
+    color: #ff5f38;
     font-size: 16px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -52,9 +64,9 @@
   }
   .headerWrapper > button{
     background-color: #ffffff00;
-    color: #EEDACB;
+    color: #ff5f38;
     cursor: pointer;
-    outline-color:#D1898B;
+    outline-color:#ff5f38;
     position: relative; 
     z-index: 10; 
     
@@ -67,8 +79,8 @@
    }
    @keyframes headerWrapperButtonHover {
      0%{background-color: #ffffff00;}
-     50%{background-color: #D1898B;}
-     100%{background-color: #D1898B;}
+     50%{background-color: #ff5f38;}
+     100%{background-color: #ff5f38;}
    }
 
    /*  Menu */
@@ -85,7 +97,7 @@
    }
    .navbar{
      background-color: #ffffff00;
-     color: #D1898B;
+     color: #ff5f38;
     cursor: pointer; 
     padding: 30px;
      
@@ -95,7 +107,7 @@
 
    .menu{
      background-color: #1C1C1C;
-     color: #EEDACB;
+     color: #ff5f38;
      display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -110,7 +122,7 @@
      z-index: 100;
    }
    .openMenu{
-     box-shadow:0px 10px 15px 0px #D1898B;
+     box-shadow:0px 10px 15px 0px #ff5f38;
     right: 0;
     animation: animateMenu 1s;
     animation-fill-mode: forwards;
@@ -193,7 +205,7 @@
         padding-top: 10px;
       }
         #menuItems ul li:hover{
-          color: #D1898B;
+          color: #f02600;
           cursor: pointer;
           text-decoration: underline;
         }
@@ -207,7 +219,7 @@
 }
   #menuFooter > span{
     cursor: pointer;
-    color: #D1898B;
+    color: #ff5f38;
   }
   #menuFooter > span:hover{
     text-decoration: underline;
