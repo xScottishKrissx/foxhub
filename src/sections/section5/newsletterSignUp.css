@@ -40,7 +40,7 @@
   
       
       .blockContent > h6{
-        color: white;
+        color: #EEDACB;
         font-family: 'Open Sans',sans-serif;
         font-size: 13px;
         font-weight: normal;
@@ -53,7 +53,7 @@
         margin: 10px 0 5px 0;
       }
       .blockContent > p {
-        color: white;
+        color: #EEDACB;
         margin: 0;
        margin-top: 10px;
        margin-bottom: 30px;
@@ -61,10 +61,10 @@
       }
       .blockContent > button{
         background-color: #ffffff00;
-        color: white;
+        color: #D1898B;
         cursor: pointer;
-        /* outline: 2px solid #ff5f38; */
-        outline-color: #ff5f38;
+        /* outline: 2px solid #D1898B; */
+        outline-color: #D1898B;
         padding: 5px;
         text-transform: uppercase;
         width: 145px;
@@ -76,8 +76,8 @@
       }
       @keyframes buttonHover {
         0%{background-color: #ffffff00;}
-        50%{background-color: #ff5f38;}
-        100%{background-color: #ff5f38;}
+        50%{background-color: #D1898B;}
+        100%{background-color: #D1898B;}
       }
   .singleBlock{
     /* background-color: red; */

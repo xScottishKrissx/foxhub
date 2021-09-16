@@ -5,11 +5,10 @@
 
 /* 
 
-primary colour: #ff5f38;
-secondary colour: #f02600;
-tertiary - black
-*/
+header colour: #ff5f38;
+sub-header colour: #ff5f38;
 
+*/
 .section1 {
   
     display: flex;
@@ -60,7 +59,7 @@ tertiary - black
     z-index: 1;
   }
   .headerWrapper > p{
-    color: #ff5f38;
+    color: #EEDACB;
     font-size: 16px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -68,9 +67,9 @@ tertiary - black
   }
   .headerWrapper > button{
     background-color: #ffffff00;
-    color: #ff5f38;
+    color: #EEDACB;
     cursor: pointer;
-    outline-color:#ff5f38;
+    outline-color:#D1898B;
     position: relative; 
     z-index: 10; 
     
@@ -101,7 +100,7 @@ tertiary - black
    }
    .navbar{
      background-color: #ffffff00;
-     color: #ff5f38;
+     color: #D1898B;
     cursor: pointer; 
     padding: 30px;
      
@@ -111,7 +110,7 @@ tertiary - black
 
    .menu{
      background-color: #1C1C1C;
-     color: #ff5f38;
+     color: #EEDACB;
      display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -126,7 +125,7 @@ tertiary - black
      z-index: 100;
    }
    .openMenu{
-     box-shadow:0px 10px 15px 0px #ff5f38;
+     box-shadow:0px 10px 15px 0px #D1898B;
     right: 0;
     animation: animateMenu 1s;
     animation-fill-mode: forwards;
@@ -209,7 +208,7 @@ tertiary - black
         padding-top: 10px;
       }
         #menuItems ul li:hover{
-          color: #f02600;
+          color: #D1898B;
           cursor: pointer;
           text-decoration: underline;
         }
@@ -223,7 +222,7 @@ tertiary - black
 }
   #menuFooter > span{
     cursor: pointer;
-    color: #ff5f38;
+    color: #D1898B;
   }
   #menuFooter > span:hover{
     text-decoration: underline;

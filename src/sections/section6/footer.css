@@ -1,10 +1,10 @@
 /************************* Section 6  */
 .section6{
     width: 100%;
-    background-color: #ff5f38;
+    background-color: #D1898B;
   }
     .footerWrapper{
-      background-color: #ff5f38;
+      background-color: #D1898B;
       display: flex;
         flex-direction: column;
         justify-content: space-around;
