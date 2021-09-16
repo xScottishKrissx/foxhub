@@ -6,7 +6,7 @@ import coleSkateboard from '../../images/cole_skateboard.png'
 import skateType  from '../../images/skate_type.png'
 import coleType from '../../images/cole_type.png'
 import foxIcon from '../../images/fox-hub.png'
-import foxLogo from '../../images/fox-hub-2-mixed-text.png'
+import foxLogo from '../../images/fox-hub-2.png'
 
 const style = {
     backgroundImage: 'url(' + backgroundImage + ')',
@@ -81,18 +81,18 @@ const style = {
                         <div id="menuItems">
                             <ul>
                                 <li>Home</li>
-                                <li>Fox Database</li>
-                                <li>Fox Shop</li>
-                                <li>Adopt a Fox</li>
-                                <li>Fox Taming Progress</li>
-                                <li>Fight Against Fox Hunting</li>
+                                <li>Clothing</li>
+                                <li>Skateboards</li>
+                                <li>Footwear</li>
+                                <li>Accessories</li>
+                                <li>Blog</li>
                             </ul>
                         </div>
 
                         <div id="menuFooter">
-                            <span>0141 369 5433</span>
+                            <span>0141 370 321</span>
                             <span>Email</span>
-                            <span>INSTAGRAM</span>
+                            <span>INSTA</span>
                         </div>
 
 
@@ -106,7 +106,7 @@ const style = {
                 </span>
 
                 <h1>THE FOX WIKI</h1>
-                <p>Everything Fox.</p>
+                <p>Red Foxes, White Foxes and Desert Foxes. They're all foxes.</p>
                 
                 <button>LEARN MORE</button>
                 </header>

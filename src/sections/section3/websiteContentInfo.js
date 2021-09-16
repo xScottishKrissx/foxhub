@@ -14,8 +14,8 @@ export const WebsiteContentInfo = (props) =>{
 
                     <div className="imageAndTextRow upper">
                         <div className="imageAndTextRowText">
-                            <h2>HOW FOXES COMMUNICATE</h2>
-                            <p>We go in depth with the different range of noises that foxes use to communicate with each other and anything  in their environment.</p>
+                            <h2>INTERVIEW WITH DAEWON SONG</h2>
+                            <p> We got to sit down with Daewon at the London premiere for a chat on “what else is out there”</p>
                             <button>READ MORE</button>
                         </div>
                         <div className="imageAndTextRowImage">
@@ -29,9 +29,9 @@ export const WebsiteContentInfo = (props) =>{
                     <div className="imageAndTextRow lower">
                         
                         <div className="imageAndTextRowText">
-                            <h2>MISCONCEPTIONS ABOUT FOXES</h2>
-                            <p>Less attacks than vending machines falling on people, let's talk about the "danger" of foxes</p>
-                            <button>READ MORE</button>
+                            <h2>KEEP IT SOCIAL </h2>
+                            <p>Follow us on Instagram for the latest tricks from the best skaters around the globe!</p>
+                            <button>FOLLOW US</button>
                         </div>
 
                         <div className="imageAndTextRowImage ">

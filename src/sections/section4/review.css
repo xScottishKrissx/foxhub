@@ -8,28 +8,18 @@
   }
   .section4 > *{
     color: black;
-    text-decoration: underline;
   }
-
-.section4 > div{
-  display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  .section4 > div > img{
-    cursor: pointer;
+  .section4 > img{
     max-width: 230px;
     animation: pulseStars 10s;
   }
-
   @keyframes pulseStars {
     0%{
       transform: scale(0.5);
     }
 
     95%{
-      transform: scale(1);
+      transform: scale(1.1);
     }
     100%{
       transform: scale(1);
