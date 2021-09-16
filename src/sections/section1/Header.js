@@ -5,8 +5,6 @@ import backgroundImage from '../../images/background_image.jpeg'
 import coleSkateboard from '../../images/cole_skateboard.png'
 import skateType  from '../../images/skate_type.png'
 import coleType from '../../images/cole_type.png'
-import foxIcon from '../../images/fox-hub.png'
-import foxLogo from '../../images/fox-hub-2.png'
 
 const style = {
     backgroundImage: 'url(' + backgroundImage + ')',
@@ -28,6 +26,21 @@ const style = {
         window.addEventListener('scroll', this.scroll);   
     }
 
+    scroll = (e) => {
+        // e.preventDefault()
+        // A bunch of stuff used to detect the current scroll position...
+        const windowHeight = "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight;
+        const body = document.body;
+        const html = document.documentElement;
+        const docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight,  html.scrollHeight, html.offsetHeight);
+        // ...this is what is actually used.
+        const windowBottom = windowHeight + window.pageYOffset + 100;
+    
+
+        // console.log(windowBottom)
+
+        // if(windowBottom >= 1700)document.getElementById("section3").classList.add('animateTest')
+    }
 
     toggleMenu(){
         
@@ -59,7 +72,7 @@ const style = {
             <div  className="section1" style={style}>
                 
                 <nav>
-                    <div className="navbar" ><img className="logo" src={foxIcon} /></div>
+                    <div className="navbar" ><img className="logo" src={coleType} /></div>
                     
                     <div className="navbar" onClick={()=>this.toggleMenu()}>
                         <span class="material-icons">menu</span>
@@ -70,7 +83,7 @@ const style = {
                         
                         <div id="menuHeader">
                             <span className="websiteLogo" onClick={()=>this.toggleMenu()}>
-                                <img class="logo" src={foxIcon} />
+                                <img class="logo" src={coleType} />
                             </span>
 
                             <span className="toggleMenuButton" onClick={()=>this.toggleMenu()}>
@@ -101,17 +114,20 @@ const style = {
 
                 <header className="headerWrapper">
                 <span id="section1ImageWrapper">
-                    <img id="coleSkateboard" src={foxLogo} alt="text" />
-                    {/* <img id="skateType" alt="text" src={foxIcon} /> */}
+                    <img id="coleSkateboard" src={coleSkateboard} alt="text" />
+                    <img id="skateType" alt="text" src={skateType} />
                 </span>
 
-                <h1>THE FOX WIKI</h1>
-                <p>Red Foxes, White Foxes and Desert Foxes. They're all foxes.</p>
+                <h1>THE HOME OF SKATEBOARDING</h1>
+                <p>Things change, Boards change, shoes changes, tricks change, skaters change</p>
                 
                 <button>LEARN MORE</button>
                 </header>
 
-                {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="white" fill-opacity="1" d="M0,128L80,154.7C160,181,320,235,480,240C640,245,800,203,960,181.3C1120,160,1280,160,1360,160L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> */}
+
+                {/* <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,200 0,200 C 160.8,176 321.6,152 490,167 C 658.4,182 834.4000000000001,236 994,248 C 1153.6,260 1296.8,230 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#fff" ></path></svg> */}
+                {/* M78,200 c175,-72 166,76 348,2 */}
+                {/* <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,200 0,200 C 160.8,176 321.6,152 490,167 C 658.4,182 834.4000000000001,236 994,248 C 1153.6,260 1296.8,230 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="white" ></path></svg> */}
 
                 <span className="gradientSection"></span>
                 <span onClick={()=>this.toggleMenu()} id="menuBackground"></span>

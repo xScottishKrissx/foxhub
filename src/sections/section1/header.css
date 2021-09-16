@@ -1,29 +1,14 @@
 /* Section 1 */
-*{
-  /* outline: 1px solid red; */
-}
-
-/* 
-
-header colour: #ff5f38;
-sub-header colour: #ff5f38;
-
-*/
 .section1 {
   
     display: flex;
       flex-direction: column;
       align-items: center;
-      /* justify-content: flex-end; */
     /* padding-bottom: 100px; */
     min-height: 50vh;
     position: relative;
     text-align: center;
     
-  }
-  .section1 > svg{
-    position: relative;
-      bottom: 0;
   }
     .gradientSection{
       background: rgb(0,0,0);
