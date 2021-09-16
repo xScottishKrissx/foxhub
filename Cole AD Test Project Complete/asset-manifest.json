@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.226c2314.chunk.css",
+    "main.js": "./static/js/main.b8d05685.chunk.js",
+    "main.js.map": "./static/js/main.b8d05685.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.02941a9f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.02941a9f.js.map",
+    "static/js/2.79916250.chunk.js": "./static/js/2.79916250.chunk.js",
+    "static/js/2.79916250.chunk.js.map": "./static/js/2.79916250.chunk.js.map",
+    "static/js/3.57f70939.chunk.js": "./static/js/3.57f70939.chunk.js",
+    "static/js/3.57f70939.chunk.js.map": "./static/js/3.57f70939.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.226c2314.chunk.css.map": "./static/css/main.226c2314.chunk.css.map",
+    "static/js/2.79916250.chunk.js.LICENSE.txt": "./static/js/2.79916250.chunk.js.LICENSE.txt",
+    "static/media/background_image.ca2e8087.jpeg": "./static/media/background_image.ca2e8087.jpeg",
+    "static/media/cole_skateboard.ac2124e6.png": "./static/media/cole_skateboard.ac2124e6.png",
+    "static/media/cole_type.f71a92b6.png": "./static/media/cole_type.f71a92b6.png",
+    "static/media/cole_type_reverse.08f8de71.png": "./static/media/cole_type_reverse.08f8de71.png",
+    "static/media/deck_1.15c70753.jpg": "./static/media/deck_1.15c70753.jpg",
+    "static/media/hoodie_1.528f04dc.jpg": "./static/media/hoodie_1.528f04dc.jpg",
+    "static/media/websiteContentInfo.css": "./static/media/social_image.eb5311e7.jpeg",
+    "static/media/shoes_1.82c1b69d.jpg": "./static/media/shoes_1.82c1b69d.jpg",
+    "static/media/skate_type.159395cb.png": "./static/media/skate_type.159395cb.png",
+    "static/media/wheels_1.f113dfdd.jpg": "./static/media/wheels_1.f113dfdd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02941a9f.js",
+    "static/js/2.79916250.chunk.js",
+    "static/css/main.226c2314.chunk.css",
+    "static/js/main.b8d05685.chunk.js"
+  ]
+}
